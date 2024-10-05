@@ -1,0 +1,76 @@
+body {
+    background-color: #ffe6e6;
+ 
+    color: #ff66b2;
+ 
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+ 
+    text-align: center;
+ 
+    margin: 0;
+ 
+    padding: 0;
+ 
+}
+ 
+h1 {
+ 
+    margin-top: 50px;
+ 
+    font-size: 48px;
+ 
+    color:#ff00d4;
+ 
+}
+ 
+p {
+ 
+    font-size: 24px;
+ 
+}
+ 
+.heart {
+ 
+    font-size: 100px;
+ 
+    color: #ff008c;
+ 
+    animation: beat 1s infinite;
+ 
+}
+ 
+@keyframes beat {
+ 
+    0%, 20%, 50%, 80%, 100% {transform: scale(1);}
+ 
+    70% {transform: scale(1.2);}
+ 
+    80% {transform: scale(0.9);}
+ 
+}
+ 
+.button-love {
+ 
+    margin-top: 30px;
+ 
+    padding: 20px 20px;
+ 
+    font-size: 18px;
+ 
+    color: rgb(255, 0, 200);
+ 
+    background-color: #fffdfe;
+ 
+    border: none;
+ 
+    border-radius: 5px;
+ 
+    cursor: pointer;
+ 
+}
+ 
+.button-love:hover {
+ 
+    background-color: #ff4081;
+ 
+}
